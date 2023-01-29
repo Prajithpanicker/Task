@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "fontregular";
+    src: url(fonts/Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: "fontbold";
+    src: url(fonts/Roboto-Bold.ttf);
+  }
+  @font-face {
+    font-family: "fontmedium";
+    src: url(fonts/Roboto-Medium.ttf);
+  }
+  body {
+    margin: 0;
+  }
+  .MainContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .Container {
+    width: 1280px;
+  }
+  .headerimg {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .headerimg img {
+    height: 60px;
+  }
+  .headerimg img:nth-child(2) {
+    height: 30px;
+    display: none;
+  }
+  .nav {
+    display: flex;
+    gap: 102px;
+    justify-content: center;
+  }
+  .nav li {
+    list-style: none;
+    font-family: "fontmedium";
+    cursor: pointer;
+  }
+  .nav li:nth-child(1) {
+    color: #e17c35 !important;
+  }
+  header hr {
+    border: 1px solid black;
+    width: 1278px;
+  }
+  .Mainimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Mainimg img {
+    width: 100%;
+  }
+  .wllTxt {
+    padding-top: 20px;
+    height: 100px;
+    text-align: center;
+  }
+  .wllTxt h1 {
+    font-family: "fontregular";
+    font-weight: 550;
+  }
+  .wllTxt hr {
+    border: 2px solid black;
+    width: 25px;
+  }
+ 
+  .para p {
+      font-family: "fontregular";
+  text-align: justify;
+  margin-left: 105px;
+  }
+  .para img {
+    height: 230px;
+   padding-left: 23px;
+   padding-bottom: 10px;
+   float: right;
+  }
+  .readmorebutton{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .readmorebutton button{
+      width: 150px;
+      height: 50px;
+      background-color: rgba(240, 248, 255, 0);
+      font-family: 'fontmedium';
+      border: 1px solid black;
+  }
+  .cricleimage {
+      display: flex;
+      gap: 45px;
+      justify-content: center;
+  }
+  .cricleimage img{
+      height: 300px;
+      border-radius: 403px;
+  }
+  .paratwo p{
+      font-family: 'fontregular';
+      text-align: justify;
+font-weight: 400;
+  }
+footer{
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+  footer h6{
+      font-family: 'fontregular';
+      font-weight: 550;
+      font-size: 13px;
+  }
+  footer h6 a{
+      text-decoration: none;
+      color: #e17c35;
+  }
+  @media (min-width: 768px) and (max-width: 1024px){
+    .headerimg{
+        justify-content: space-between;
+    }
+    .headerimg img:nth-child(2) {
+        display: block!important;
+        padding-top: 20px;
+      
+      }
+      header hr{
+        display: none;
+    }
+    .nav{
+          display: none;
+      }
+      .Container {
+        width: 1080px;
+        padding-left: 20px;
+        padding-right: 30px;
+      }
+     
+  }
+ 
